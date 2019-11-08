@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Superhero extends Model
+class City extends Model
 {
     /**
      * The attributes that are mass assignable.
@@ -12,6 +12,6 @@ class Superhero extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'alter_ego', 'first_appeared',
+        'name',
     ];
 }

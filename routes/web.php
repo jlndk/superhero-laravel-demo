@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::resource('superheroes', 'SuperheroController');
+Route::resource('cities', 'CityController');
